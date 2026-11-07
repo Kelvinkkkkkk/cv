@@ -4,7 +4,7 @@ export const RESUME_DATA: ResumeData = {
   name: "Kelvin Chung",
   location: "Beijing, China",
   locationLink: "https://www.google.com/maps/place/beijing",
-  about: 
+  about:
     "Machine Learning Engineer | Quantitative Trading & Recommender Systems",
   summary:
     "Machine Learning Engineer with a background in finance, specializing in recommender systems, quantitative modeling, and intelligent decision-making. Experienced in developing end-to-end machine learning solutions, from data processing and feature engineering to model development, evaluation, and deployment. Interested in applying machine learning and deep learning to financial services, with a focus on personalization, user behavior modeling, and recommendation optimization.",
