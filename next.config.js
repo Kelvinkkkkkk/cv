@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/cv',
+  assetPrefix: '/cv',
+  trailingSlash: true,
   poweredByHeader: false,
   async rewrites() {
     return {
