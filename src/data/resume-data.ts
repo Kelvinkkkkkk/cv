@@ -7,7 +7,7 @@ export const RESUME_DATA: ResumeData = {
   about: "Machine Learning Engineer | Quantitative Trading & Recommender Systems",
   summary:
     "Machine Learning Engineer with a background in finance, specializing in recommender systems, quantitative modeling, and intelligent decision-making. Experienced in developing end-to-end machine learning solutions, from data processing and feature engineering to model development, evaluation, and deployment. Interested in applying machine learning and deep learning to financial services, with a focus on personalization, user behavior modeling, and recommendation optimization.",
-  siteUrl: "https://cv.jarocki.me",
+  siteUrl: "https://cv.jarocki.me.  ",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "bartosz.jarocki@hey.com",
