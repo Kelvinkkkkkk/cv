@@ -12,6 +12,9 @@ export const size = {
 
 export const contentType = "image/png";
 
+// output: "export" only prerenders route handlers that opt into static generation.
+export const dynamic = "force-static";
+
 const colors = { bg: "#fafaf8", ink: "#1a1815", body: "#4a4744" };
 
 const avatarSignatures = {
