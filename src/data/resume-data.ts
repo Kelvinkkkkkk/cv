@@ -1,14 +1,12 @@
 import type { ResumeData } from "@/lib/types";
-import avatar from "./avatar.jpg";
 
 export const RESUME_DATA: ResumeData = {
-  name: "Bartosz Jarocki",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Kelvin Chung",
+  location: "Beijing, China",
+  locationLink: "https://www.google.com/maps/place/beijing",
   about: "Full Stack Engineer building products from the ground up.",
   summary:
     "Full Stack Engineer with 15+ years of experience and 10+ years working remotely. Building high-performance web applications, leading distributed teams, and creating open source tools used by thousands of developers.",
-  avatar,
   siteUrl: "https://cv.jarocki.me",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {

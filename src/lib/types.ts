@@ -1,5 +1,3 @@
-import type { StaticImageData } from "next/image";
-
 export type SocialIcon = "github" | "linkedin" | "x";
 
 export interface SocialLink {
@@ -39,7 +37,6 @@ export interface ResumeData {
   locationLink: string;
   about: string;
   summary: string;
-  avatar: StaticImageData;
   siteUrl: string;
   personalWebsiteUrl?: string;
   contact: {

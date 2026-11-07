@@ -5,7 +5,6 @@ export function generateResumeStructuredData() {
   const {
     name,
     about,
-    avatar,
     siteUrl,
     personalWebsiteUrl,
     contact,
@@ -26,7 +25,6 @@ export function generateResumeStructuredData() {
       name,
       description: about,
       url: siteUrl,
-      image: new URL(avatar.src, siteUrl).href,
       sameAs: [
         ...(personalWebsiteUrl ? [personalWebsiteUrl] : []),
         ...contact.social.map(({ url }) => url),

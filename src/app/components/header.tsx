@@ -1,5 +1,4 @@
 import { GlobeIcon, MailIcon, MapPinIcon, PhoneIcon } from "lucide-react";
-import Image from "next/image";
 import type React from "react";
 import { GitHubIcon } from "@/components/icons/github-icon";
 import { LinkedInIcon } from "@/components/icons/linkedin-icon";
@@ -102,36 +101,25 @@ export function Header() {
   const contactLinks = getContactLinks(RESUME_DATA);
 
   return (
-    <header className="flex items-center justify-between gap-x-4">
-      <div className="flex-1 space-y-1.5 print:space-y-1">
-        <h1
-          className="font-pixel text-[28px] leading-none sm:text-[32px]"
-          id="resume-name"
-        >
-          {RESUME_DATA.name}
-        </h1>
-        <p className="max-w-md text-pretty text-sm text-body print:text-[12px] print:leading-tight">
-          {RESUME_DATA.about}
-        </p>
+    <header className="space-y-1.5 print:space-y-1">
+      <h1
+        className="font-pixel text-[28px] leading-none sm:text-[32px]"
+        id="resume-name"
+      >
+        {RESUME_DATA.name}
+      </h1>
+      <p className="max-w-md text-pretty text-sm text-body print:text-[12px] print:leading-tight">
+        {RESUME_DATA.about}
+      </p>
 
-        <LocationLink
-          location={RESUME_DATA.location}
-          locationLink={RESUME_DATA.locationLink}
-        />
-
-        <ContactButtons links={contactLinks} />
-
-        <PrintContact links={contactLinks} />
-      </div>
-
-      <Image
-        className="size-28 shrink-0 rounded-xl bg-muted object-cover ring-1 ring-muted"
-        src={RESUME_DATA.avatar}
-        alt={`${RESUME_DATA.name}'s profile picture`}
-        width={112}
-        height={112}
-        preload={true}
+      <LocationLink
+        location={RESUME_DATA.location}
+        locationLink={RESUME_DATA.locationLink}
       />
+
+      <ContactButtons links={contactLinks} />
+
+      <PrintContact links={contactLinks} />
     </header>
   );
 }
