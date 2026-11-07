@@ -4,9 +4,9 @@ export const RESUME_DATA: ResumeData = {
   name: "Kelvin Chung",
   location: "Beijing, China",
   locationLink: "https://www.google.com/maps/place/beijing",
-  about: "Full Stack Engineer building products from the ground up.",
+  about: "Machine Learning Engineer | Quantitative Trading & Recommender Systems",
   summary:
-    "Full Stack Engineer with 15+ years of experience and 10+ years working remotely. Building high-performance web applications, leading distributed teams, and creating open source tools used by thousands of developers.",
+    "Machine Learning Engineer with a background in finance, specializing in recommender systems, quantitative modeling, and intelligent decision-making. Experienced in developing end-to-end machine learning solutions, from data processing and feature engineering to model development, evaluation, and deployment. Interested in applying machine learning and deep learning to financial services, with a focus on personalization, user behavior modeling, and recommendation optimization.",
   siteUrl: "https://cv.jarocki.me",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
